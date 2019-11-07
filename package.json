@@ -1,0 +1,32 @@
+{
+  "name": "use-feature-flag",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "acorn-jsx": "^5.1.0",
+    "autoprefixer": "^9.7.1",
+    "rollup": "^1.26.3",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^2.0.3"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
